@@ -31,7 +31,7 @@ function App() {
         </main>
         <div className="fixed sticky w-full h-16 ">
             <div className="grid text-md text-gray-500 justify-center mx-auto mb-3">
-              <span>Looking for my resume? Contact me at <span className="italic">piersonmarks@engineering.ucla.edu</span></span>
+              <span>Want to chat? Contact me at <span className="italic">piersonmarks@engineering.ucla.edu</span></span>
             </div>
             <div className="grid text-sm text-gray-500 justify-center mx-auto">
               Copyright © 2023 | Seattle, Washington
