@@ -27,7 +27,7 @@ function App() {
             </div>
             <div className="text-justify pb-2 text-xl font-bold">About Me</div>
             <p className="mb-2">
-              I&apos;m a technology enthuiast. And I love building things.
+              I&apos;m a technology enthusiast. And I love building things.
             </p>
             <p className="mb-2">
               I am the CEO & founder of{" "}
