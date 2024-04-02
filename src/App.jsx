@@ -12,10 +12,10 @@ function App() {
           <div className="text-sm italic text-center pb-8">
             Looking for my blog? Check it out here:{" "}
             <a
-              href="https://blog.piersonmarks.com/"
+              href="https://piersonmarks.substack.com/"
               className="text-blue-800 hover:underline"
             >
-              blog.piersonmarks.com
+              piersonmarks.substack.com
             </a>
           </div>
           <div className="text-justify pb-2">
@@ -140,6 +140,24 @@ function App() {
               >
                 <title>LinkedIn</title>
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a
+              className="inline-flex flex-col px-2 group footer-link icon items-center"
+              href="https://twitter.com/piersonmarks"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Twitter"
+            >
+              <svg
+                className="fill-gray-500 hover:fill-blue-800"
+                width="18"
+                role="img"
+                viewBox="0 0 300 300"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Twitter (X)</title>
+                <path d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66" />
               </svg>
             </a>
           </div>
