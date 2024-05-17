@@ -75,6 +75,16 @@ function App() {
             <ul className="align-middle list-outside ml-4">
               <li className="list-disc align-middle">
                 <a
+                  href="https://www.geekwire.com/2024/too-many-newsletters-in-your-inbox-former-alexa-engineer-uses-ai-to-turn-content-into-daily-podcasts/"
+                  target="_blank"
+                  className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                >
+                  (GeekWire) Too many newsletters in your inbox? Former Alexa
+                  engineer uses AI to turn content into daily podcasts
+                </a>
+              </li>
+              <li className="list-disc align-middle">
+                <a
                   href="https://www.sonos.com/en-us/newsroom/sonos-and-alexa-expand"
                   target="_blank"
                   className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
