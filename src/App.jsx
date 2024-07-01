@@ -19,15 +19,30 @@ function App() {
             </a>
           </div>
           <div className="text-justify pb-2">
-            <div className="my-8">
+            {/* <div className="my-8">
               <img src={image} alt="Pierson Marks" className="rounded-3xl" />
               <p className="text-gray-400 text-xs italic mx-2 mt-0.5">
                 July 11, 2023 - Amazon HQ Spheres (Seattle, Washington)
               </p>
+            </div> */}
+            <div className="text-justify pb-2 text-xl font-medium">
+              I&apos;m a technology generalist.
             </div>
-            <div className="text-justify pb-2 text-xl font-bold">About Me</div>
+            <p className="pb-2">
+              I love design, music, and building cool things.
+            </p>
             <p className="mb-2">
-              I&apos;m a technology enthusiast. And I love building things.
+              You&apos;ll often catch me tinkerering with the latest LLMs,
+              hitting the gym, or producing deep house music. I often post on{" "}
+              <a
+                className="font-semibold text-blue-500 hover:underline"
+                href="https://x.com/piersonmarks"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Twitter
+              </a>
+              , too.
             </p>
             <p className="mb-2">
               I am the CEO & founder of{" "}
@@ -39,19 +54,9 @@ function App() {
               >
                 Jellypod
               </a>
-              , an early-stage startup building a platform to aggregate and
-              summarize your personal newsletters into a daily, audio podcast.{" "}
-              <span className="italic">
-                Check it out here:{" "}
-                <a
-                  href="https://jellypod.ai/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-blue-500 hover:underline"
-                >
-                  https://jellypod.ai/
-                </a>
-              </span>
+              , a platform that helps people solve inbox overload by
+              transforming your newsletter subscriptions into a daily,
+              personalized podcast.{" "}
             </p>
             <p className="mb-2">
               Prior to Jellypod, I worked at Amazon as a Software Development
@@ -62,11 +67,31 @@ function App() {
               with several global partners, and have been instrumental in adding
               over a million new Alexa endpoints worldwide.
             </p>
-            <p>
-              I graduated from the University of California, Los Angeles, and
-              have a Bachelor of Science degree in Computer Science.{" "}
-              <span className="italic">Go Bruins!</span>
-            </p>
+          </div>
+          <div className="text-gray-700 mt-4">
+            <div className="text-justify pb-2 text-xl font-bold">
+              Previous Experience
+            </div>
+            <ul className="align-middle list-outside ml-4"></ul>
+            <li className="list-disc align-middle">
+              <span className="font-semibold">
+                Amazon, Alexa Voice Services
+              </span>
+              <span className="italic">
+                {" "}
+                - Software Development Engineer & Technical Lead
+              </span>
+            </li>
+          </div>
+          <div className="text-gray-700 mt-4">
+            <div className="text-justify pb-2 text-xl font-bold">Education</div>
+            <ul className="align-middle list-outside ml-4"></ul>
+            <li className="list-disc align-middle">
+              <span className="font-semibold">
+                University of California, Los Angeles
+              </span>
+              <span className="italic"> - B.S., Computer Science</span>
+            </li>
           </div>
           <div className="text-gray-700 mt-4">
             <div className="text-justify pb-2 text-xl font-bold">
@@ -77,16 +102,30 @@ function App() {
                 <a
                   href="https://www.geekwire.com/2024/too-many-newsletters-in-your-inbox-former-alexa-engineer-uses-ai-to-turn-content-into-daily-podcasts/"
                   target="_blank"
+                  rel="noreferrer"
                   className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
                 >
-                  (GeekWire) Too many newsletters in your inbox? Former Alexa
-                  engineer uses AI to turn content into daily podcasts
+                  <strong>GeekWire</strong>: Too many newsletters in your inbox?
+                  Former Alexa engineer uses AI to turn content into daily
+                  podcasts.
+                </a>
+              </li>
+              <li className="list-disc align-middle">
+                <a
+                  href="https://kern.al/post-event/pitch-day"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                >
+                  <strong>Kernal - Hosted by Haley Bryant (Hustle Fund)</strong>
+                  : The Best F***ing Pitch Event on the Internet
                 </a>
               </li>
               <li className="list-disc align-middle">
                 <a
                   href="https://www.sonos.com/en-us/newsroom/sonos-and-alexa-expand"
                   target="_blank"
+                  rel="noreferrer"
                   className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
                 >
                   Sonos and Amazon to expand access to voice control with Alexa
@@ -97,6 +136,7 @@ function App() {
                 <a
                   href="https://developer.amazon.com/en-US/blogs/alexa/device-makers/2021/06/now-available-set-up-alexa-voice-service-devices-through-the-alexa-app"
                   target="_blank"
+                  rel="noreferrer"
                   className="hover:bg-blue-200 hover:underline  hover:transition-all duration-150 ease-in"
                 >
                   Set Up Alexa Voice Service Devices Through the Alexa App
@@ -113,7 +153,7 @@ function App() {
             </span>
           </div>
           <div className="grid text-sm text-gray-500 justify-center mx-auto">
-            Copyright © 2023 | Seattle, Washington
+            Copyright © 2024 | Seattle, Washington
           </div>
           <div className="grid-cols-2 mx-auto font-medium mt-3 text-center mb-1">
             <a
