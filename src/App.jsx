@@ -1,5 +1,4 @@
 import "./App.css";
-import image from "./assets/PiersonMarks-fjge.png";
 
 function App() {
   return (
