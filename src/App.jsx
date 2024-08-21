@@ -114,7 +114,16 @@ function App() {
                   <strong>[iSeed VC]</strong> Jellypod added as iSeedVC's newest portfolio company
                 </a>
               </li>
-              
+              <li className="list-disc align-middle">
+                <a
+                  href="https://youtu.be/YSmfkxjaGG0?si=o8PCavm3Xqtlj_zC&t=808"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                >
+                  <strong>[This Week in Startups]</strong> Pierson, CEO of Jellypod, asks Jason Calancanis about building a business as a solo-founder
+                </a>
+              </li>
               <li className="list-disc align-middle">
                 <a
                   href="https://kern.al/post-event/pitch-day"
