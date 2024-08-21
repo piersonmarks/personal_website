@@ -18,53 +18,48 @@ function App() {
             </a>
           </div>
           <div className="text-justify pb-2">
-            {/* <div className="my-8">
-              <img src={image} alt="Pierson Marks" className="rounded-3xl" />
-              <p className="text-gray-400 text-xs italic mx-2 mt-0.5">
-                July 11, 2023 - Amazon HQ Spheres (Seattle, Washington)
-              </p>
-            </div> */}
-            <div className="text-justify pb-2 text-xl font-medium">
-              I&apos;m a technology generalist.
-            </div>
             <p className="pb-2">
-              I love design, music, and building cool things.
+              I'm a <span className="underline">designer</span>. 
             </p>
+            <div className="mb-2">
+              Yes, I love technology, software, and building cool things. 
+              But underneath it all, it's my passion for design that guides everything I do.
+            </div>
+           <div className="mb-2">
+            Design is more than just creating something that looks and feels great. It's an iterative
+            process to build and improve on some system, which could be the design of your users' experience, 
+            the design of your business's strategy, or the design of your technical architecture.
+           </div>
+           <div className="font-semibold mb-2">Great design leads to great outcomes.</div>
+            <div className="text-gray-700 mt-6">
+              <div className="text-justify pb-2 text-xl font-bold">
+                About Me
+              </div>
+              <p className="mb-2">
+                I am the CEO & founder of{" "}
+                <a
+                  className="font-semibold text-blue-500 hover:underline"
+                  href="https://jellypod.ai"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Jellypod
+                </a>
+                , a platform that helps people solve inbox overload by
+                transforming your newsletter subscriptions into a daily,
+                personalized podcast.{" "}
+              </p>
+              <p className="mb-2">
+                Prior to Jellypod, I spent time at Amazon Alexa building world-class 
+                out-of-box-experiences for Alexa Built-In (3P) devices, 
+                including frustration-free setup, IoT provisioning, and
+                device detection. I&apos;ve been fortunate to directly collaborate
+                with several global partners and have been instrumental in adding
+                over a million new Alexa endpoints worldwide.
+              </p>
+            </div>
             <p className="mb-2">
-              You&apos;ll often catch me tinkerering with the latest LLMs,
-              hitting the gym, or producing deep house music. I often post on{" "}
-              <a
-                className="font-semibold text-blue-500 hover:underline"
-                href="https://x.com/piersonmarks"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Twitter
-              </a>
-              , too.
-            </p>
-            <p className="mb-2">
-              I am the CEO & founder of{" "}
-              <a
-                className="font-semibold text-blue-500 hover:underline"
-                href="https://jellypod.ai"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Jellypod
-              </a>
-              , a platform that helps people solve inbox overload by
-              transforming your newsletter subscriptions into a daily,
-              personalized podcast.{" "}
-            </p>
-            <p className="mb-2">
-              Prior to Jellypod, I worked at Amazon as a Software Development
-              Engineer. My work in the Alexa Voice Service organization focused
-              on building world-class out-of-box-experiences for Alexa Built-In
-              devices, including frustration-free setup, IoT provisioning, and
-              device detection. I&apos;ve been fortunate to directly collaborate
-              with several global partners, and have been instrumental in adding
-              over a million new Alexa endpoints worldwide.
+              Outside of work, catch me playing beach tennis, hitting the gym, or writing music/playing piano.
             </p>
           </div>
           <div className="text-gray-700 mt-4">
@@ -74,11 +69,11 @@ function App() {
             <ul className="align-middle list-outside ml-4"></ul>
             <li className="list-disc align-middle">
               <span className="font-semibold">
-                Amazon, Alexa Voice Services
+                [Amazon, Alexa Voice Services]
               </span>
-              <span className="italic">
+              <span className="">
                 {" "}
-                - Software Development Engineer & Technical Lead
+                Software Development Engineer & Technical Lead
               </span>
             </li>
           </div>
@@ -87,9 +82,9 @@ function App() {
             <ul className="align-middle list-outside ml-4"></ul>
             <li className="list-disc align-middle">
               <span className="font-semibold">
-                University of California, Los Angeles
+                [University of California, Los Angeles]
               </span>
-              <span className="italic"> - B.S., Computer Science</span>
+              <span className="">{' '}B.S. Computer Science, Samueli School of Engineering</span>
             </li>
           </div>
           <div className="text-gray-700 mt-4">
@@ -102,22 +97,33 @@ function App() {
                   href="https://www.geekwire.com/2024/too-many-newsletters-in-your-inbox-former-alexa-engineer-uses-ai-to-turn-content-into-daily-podcasts/"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                  className="text-sm hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
                 >
-                  <strong>GeekWire</strong>: Too many newsletters in your inbox?
+                  <strong>[GeekWire]</strong> Too many newsletters in your inbox?
                   Former Alexa engineer uses AI to turn content into daily
                   podcasts.
                 </a>
               </li>
               <li className="list-disc align-middle">
                 <a
+                  href="https://www.iseedvc.com/#iseed-portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                >
+                  <strong>[iSeed VC]</strong> Jellypod added as iSeedVC's newest portfolio company
+                </a>
+              </li>
+              
+              <li className="list-disc align-middle">
+                <a
                   href="https://kern.al/post-event/pitch-day"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                  className="text-sm hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
                 >
-                  <strong>Kernal - Hosted by Haley Bryant (Hustle Fund)</strong>
-                  : The Best F***ing Pitch Event on the Internet
+                  <strong>[Kernal - Hosted by Haley Bryant from Hustle Fund]</strong>
+                  {' '}The Best F***ing Pitch Event on the Internet
                 </a>
               </li>
               <li className="list-disc align-middle">
@@ -125,9 +131,9 @@ function App() {
                   href="https://www.sonos.com/en-us/newsroom/sonos-and-alexa-expand"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                  className="text-sm hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
                 >
-                  Sonos and Amazon to expand access to voice control with Alexa
+                  <strong>[Amazon Alexa]</strong> Sonos and Amazon to expand access to voice control with Alexa
                   on Sonos devices
                 </a>
               </li>
@@ -136,23 +142,23 @@ function App() {
                   href="https://developer.amazon.com/en-US/blogs/alexa/device-makers/2021/06/now-available-set-up-alexa-voice-service-devices-through-the-alexa-app"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:bg-blue-200 hover:underline  hover:transition-all duration-150 ease-in"
+                  className="text-sm hover:bg-blue-200 hover:underline  hover:transition-all duration-150 ease-in"
                 >
-                  Set Up Alexa Voice Service Devices Through the Alexa App
+                  <strong>[Amazon]</strong> Set Up Alexa Voice Service Devices Through the Alexa App
                 </a>
               </li>
             </ul>
           </div>
         </main>
         <div className="fixed sticky w-full">
-          <div className="grid text-md text-gray-500 justify-center text-center mx-auto mb-3">
+          <div className="grid text-sm text-gray-500 justify-center text-center mx-auto mb-3">
             <span>
               Want to chat? Contact me at{" "}
-              <span className="italic">piersonmarks@engineering.ucla.edu</span>
+              <span className="italic">pierson@jellypod.ai</span>
             </span>
           </div>
-          <div className="grid text-sm text-gray-500 justify-center mx-auto">
-            Copyright © 2024 | Seattle, Washington
+          <div className="grid text-xs text-gray-500 justify-center mx-auto">
+            Copyright © 2024 | Los Angeles, California
           </div>
           <div className="grid-cols-2 mx-auto font-medium mt-3 text-center mb-1">
             <a
