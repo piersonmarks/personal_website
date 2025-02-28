@@ -18,25 +18,12 @@ function App() {
             </a>
           </div>
           <div className="text-justify pb-2">
-            <p className="pb-2">
-              I'm a <span className="underline">designer</span>. 
-            </p>
-            <div className="mb-2">
-              Yes, I love technology, software, and building cool things. 
-              But underneath it all, it's my passion for design that guides everything I do.
+            <div className="font-semibold mb-2 text-lg">
+              In the age of abundant intelligence, agency and focus set people apart.
             </div>
-           <div className="mb-2">
-            Design is more than just creating something that looks and feels great. It's an iterative
-            process to build and improve on some system, which could be the design of your users' experience, 
-            the design of your business's strategy, or the design of your technical architecture.
-           </div>
-           <div className="font-semibold mb-2">Great design leads to great outcomes.</div>
             <div className="text-gray-700 mt-6">
-              <div className="text-justify pb-2 text-xl font-bold">
-                About Me
-              </div>
               <p className="mb-2">
-                I am the CEO & founder of{" "}
+                I am the CEO & co-founder of{" "}
                 <a
                   className="font-semibold text-blue-500 hover:underline"
                   href="https://jellypod.ai"
@@ -45,40 +32,29 @@ function App() {
                 >
                   Jellypod
                 </a>
-                , a platform that helps people solve inbox overload by
-                transforming your newsletter subscriptions into a daily,
-                personalized podcast.{" "}
-              </p>
-              <p className="mb-2">
-                Prior to Jellypod, I spent time at Amazon Alexa building world-class 
-                out-of-box-experiences for Alexa Built-In (3P) devices, 
-                including frustration-free setup, IoT provisioning, and
-                device detection. I&apos;ve been fortunate to directly collaborate
-                with several global partners and have been instrumental in adding
-                over a million new Alexa endpoints worldwide.
-              </p>
+                , the AI Podcast Studio.</p>
             </div>
             <p className="mb-2">
-              Outside of work, catch me playing beach tennis, hitting the gym, or writing music/playing piano.
+              Outside of work, catch me playing beach tennis, hitting the gym, or writing music and playing piano. I also <a href="https://x.com/piersonmarks" target="_blank" rel="noreferrer" className="font-semibold text-blue-500 hover:underline">tweet</a> (post?) occasionally.
             </p>
           </div>
           <div className="text-gray-700 mt-4">
-            <div className="text-justify pb-2 text-xl font-bold">
+            <div className="text-justify pb-1 text-xl font-bold">
               Previous Experience
             </div>
             <ul className="align-middle list-outside ml-4"></ul>
             <li className="list-disc align-middle">
               <span className="font-semibold">
-                [Amazon, Alexa Voice Services]
+                [Amazon - Alexa Voice Services]
               </span>
               <span className="">
                 {" "}
-                Software Development Engineer & Technical Lead
+                Software Engineer
               </span>
             </li>
           </div>
           <div className="text-gray-700 mt-4">
-            <div className="text-justify pb-2 text-xl font-bold">Education</div>
+            <div className="text-justify pb-1 text-xl font-bold">Education</div>
             <ul className="align-middle list-outside ml-4"></ul>
             <li className="list-disc align-middle">
               <span className="font-semibold">
@@ -88,10 +64,20 @@ function App() {
             </li>
           </div>
           <div className="text-gray-700 mt-4">
-            <div className="text-justify pb-2 text-xl font-bold">
-              Media & Press
+            <div className="text-justify pb-1 text-xl font-bold">
+              Links
             </div>
             <ul className="align-middle list-outside ml-4">
+              <li className="list-disc align-middle">
+                <a
+                  href="https://www.forbes.com/sites/rogerdooley/2024/11/17/which-ai-podcast-creator-is-bestjellypod-or-notebooklm/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm hover:bg-blue-200 hover:underline hover:transition-all duration-150 ease-in"
+                >
+                  <strong>[Forbes]</strong> Which AI Podcast Creator Is Best - Jellypod Or NotebookLM?
+                </a>
+              </li>
               <li className="list-disc align-middle">
                 <a
                   href="https://www.geekwire.com/2024/too-many-newsletters-in-your-inbox-former-alexa-engineer-uses-ai-to-turn-content-into-daily-podcasts/"
@@ -167,7 +153,7 @@ function App() {
             </span>
           </div>
           <div className="grid text-xs text-gray-500 justify-center mx-auto">
-            Copyright © 2024 | Los Angeles, California
+            Copyright © {new Date().getFullYear()} | Los Angeles, California
           </div>
           <div className="grid-cols-2 mx-auto font-medium mt-3 text-center mb-1">
             <a
